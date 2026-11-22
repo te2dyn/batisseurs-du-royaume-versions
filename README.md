@@ -5,6 +5,8 @@ Fondez un village, nourrissez et protégez votre peuple au fil des saisons, fait
 
 Inspiré des grands jeux de gestion comme *Banished* (la survie du village, les saisons, les familles) et *Age of Empires* (les âges, l'armée, les royaumes ennemis).
 
+> 🆕 **Version 0.9.1** : tous les graphismes ont été refaits (villageois animés, bâtiments, nature qui change avec les saisons…), villageois inactifs, démolition, barres de vie des bâtiments. [Voir les nouveautés](https://github.com/te2dyn/batisseurs-du-royaume-versions/releases/latest).
+
 ### [⬇️ Télécharger la dernière version](https://github.com/te2dyn/batisseurs-du-royaume-versions/releases/latest)
 
 ![Écran d'accueil](images/accueil.jpg)
@@ -13,7 +15,11 @@ Inspiré des grands jeux de gestion comme *Banished* (la survie du village, les 
 
 ## 📸 Aperçu
 
-![Le village au début de la partie](images/village.jpg)
+![Un village qui grandit](images/village.jpg)
+
+![Le même village en hiver](images/hiver.jpg)
+
+![Les villageois au travail](images/villageois.jpg)
 
 | Construire | Métiers |
 |:---:|:---:|
@@ -24,13 +30,15 @@ Inspiré des grands jeux de gestion comme *Banished* (la survie du village, les 
 ## 🌾 Le jeu
 
 ### Un village vivant
+- **Des graphismes originaux en pixel art** : chaque métier a son personnage, animé quand il marche et quand il travaille (le bûcheron coupe, le mineur pioche, le pêcheur lance sa ligne…).
 - **18 métiers** : bûcheron, cueilleur, chasseur, pêcheur, fermier, boulanger, brasseur, berger, carrier, mineur, guérisseur, bâtisseur…
-- **34 bâtiments**, chacun avec son allure, qui change à chaque âge.
+- **34 bâtiments**, chacun avec son allure, qui change à chaque âge. Les chantiers montent avec leurs échafaudages ; un bâtiment détruit laisse des ruines.
+- Un bouton **💤 villageois inactifs** retrouve ceux qui n'ont rien à faire. On peut **démolir** un bâtiment (la moitié du coût est rendue) ou **annuler** un chantier.
 - Les villageois **mangent, ont froid, tombent malades, vieillissent** et fondent des familles : les enfants deviennent adultes au bout d'un an.
 - **Le bonheur** dépend de la variété des repas, du logement, de la taverne, de la chapelle, des impôts… Un peuple malheureux fait grève ou s'en va.
 
 ### Les saisons
-- **Printemps, été, automne, hiver**, chacune avec ses couleurs, sa météo (pluie, orage, brouillard, neige) et ses règles.
+- **Printemps, été, automne, hiver**, chacune avec ses couleurs, sa météo (pluie, orage, brouillard, neige) et ses règles. Les feuillus roussissent en automne, la neige recouvre tout l'hiver et les lacs gèlent.
 - On sème au printemps, on récolte à l'automne. L'hiver, les maisons brûlent des bûches et les loups rôdent.
 
 ### Les âges et le progrès
@@ -40,7 +48,7 @@ Inspiré des grands jeux de gestion comme *Banished* (la survie du village, les 
 
 ### La guerre
 - **15 sortes de soldats** : lanciers, archers, cavaliers, machines de siège…
-- **Tours, murailles, portes** et alarme pour abriter les villageois.
+- **Tours, murailles, portes** et alarme pour abriter les villageois. Une barre de vie apparaît sur les bâtiments attaqués ; les bâtisseurs viennent les réparer.
 - **Repaires de bandits**, meutes de loups en hiver, **royaumes rivaux** qui grandissent et envoient leurs armées.
 
 ### Diplomatie et imprévus
@@ -83,6 +91,7 @@ Le jeu ne se connecte à internet **que** lorsque vous cliquez sur ce bouton.
 | Déplacer la vue | ZQSD ou flèches, souris au bord de l'écran, clic molette + glisser, mini-carte |
 | Zoomer | Molette |
 | Revenir au centre-ville | H |
+| Villageois inactif suivant | I |
 | Construire / Progrès / Diplomatie / Options | C / T / P / O |
 | Alarme | B |
 | Créer un groupe / le choisir | Ctrl + chiffre / chiffre (deux fois : centrer la vue) |
@@ -91,7 +100,7 @@ Le jeu ne se connecte à internet **que** lorsque vous cliquez sur ce bouton.
 | Plein écran | F11 |
 | Code secret | Entrée |
 
-Astuces : un clic sur 👥 dans la barre du haut ouvre le tableau des métiers ; un clic sur 🪙 règle les impôts ; l'éclaireur peut explorer la carte tout seul.
+Astuces : un clic sur 👥 dans la barre du haut ouvre le tableau des métiers ; un clic sur 🪙 règle les impôts ; l'éclaireur peut explorer la carte tout seul. Les boutons en haut à droite (🤝 🔔 📜 ⚙️) donnent leur nom au survol de la souris.
 
 ## 📁 Où sont mes sauvegardes ?
 
@@ -101,7 +110,7 @@ Dans `%APPDATA%\Godot\app_userdata\Bâtisseurs du Royaume\saves`. Elles ne sont 
 
 ## 🙏 Crédits
 
-- **Images** : pack « Tiny Swords » de [Pixel Frog](https://pixelfrog-assets.itch.io/tiny-swords).
+- **Images** : graphismes originaux créés pour le jeu avec [PixelLab](https://www.pixellab.ai). Les toutes premières versions utilisaient le pack « Tiny Swords » de [Pixel Frog](https://pixelfrog-assets.itch.io/tiny-swords), dont quelques images restent dans le jeu comme images de secours.
 - **Musiques** : RandomMind ([OpenGameArt.org](https://opengameart.org)), licence CC0.
 - **Sons** : [Kenney](https://kenney.nl) (Impact Sounds, RPG Audio, Interface Sounds), ambiances d'OpenGameArt.org, licence CC0. Pluie, feu, cloche, loups et quelques autres sons sont fabriqués par le jeu lui-même.
 - **Moteur** : [Godot Engine](https://godotengine.org) 4.
